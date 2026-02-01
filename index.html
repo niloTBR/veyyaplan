@@ -340,11 +340,11 @@
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .timeline-subtitle {
-  text-align: center;
+  text-align: left;
   font-size: 0.95rem;
   color: var(--text-secondary);
   margin-bottom: 1.5rem;
@@ -419,6 +419,25 @@
   color: #9F1239;
 }
 
+.release-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  background: linear-gradient(135deg, #F3F4F6 0%, #E5E7EB 100%);
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+  margin-top: 1rem;
+  border: 1.5px solid #D1D5DB;
+}
+
+.release-badge svg {
+  width: 1rem;
+  height: 1rem;
+}
+
 .deliverables-list {
   margin: 0;
   padding-left: 1.25rem;
@@ -467,23 +486,16 @@
 
 <!-- Implementation Timeline -->
 <div class="timeline-container">
-<h2>6 Month AI First Launch Timeline</h2>
-<p class="timeline-subtitle">Each month combines strategy, design, UX, and development work in coordinated sprints. Design and technical teams work in parallel: while designers refine upcoming features, developers build what was designed the previous sprint. This agile approach ensures continuous progress with quality at each stage, from initial branding through full platform launch.</p>
-<div class="timeline-table-wrapper">
-<table class="timeline-table">
-<thead>
-<tr>
-<th style="width: 10%;">Month</th>
-<th style="width: 15%;">Phase</th>
-<th style="width: 75%;">Key Deliverables</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Month 1</strong></td>
-<td><span class="phase-badge phase-foundation">Foundation</span></td>
-<td>
-<ul class="deliverables-list">
+<h2>8 Month AI First Launch Timeline</h2>
+<p class="timeline-subtitle">Each month combines strategy, design, UX, and development work in coordinated sprints. Design and technical teams work in parallel: while designers refine upcoming features, developers build what was designed the previous sprint. This agile approach ensures continuous progress with quality at each stage, from initial branding through comprehensive QA and launch readiness.</p>
+
+<!-- Month 1 -->
+<div style="margin-bottom: 1.5rem;">
+<h3 style="font-size: 1.1rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;">
+<span class="phase-badge phase-foundation">Month 1</span>
+Foundation Sprint Begins
+</h3>
+<ul class="deliverables-list" style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB;">
 <li><strong>Branding & Design System:</strong> Finalize brand identity, component library, design patterns</li>
 <li><strong>Tech Stack Setup:</strong> React Native, Node.js, PostgreSQL, Redis, CI/CD</li>
 <li><strong>AI Integration:</strong> OpenAI/Anthropic API setup, prompt engineering, intent classification</li>
@@ -491,91 +503,128 @@
 <li><strong>Payment Gateway Setup:</strong> PromptPay, QR code, Omise/Stripe integration preparation</li>
 <li><strong>Provider Network Planning:</strong> Identify and begin outreach to initial providers</li>
 </ul>
-</td>
-</tr>
-<tr>
-<td><strong>Month 2</strong></td>
-<td><span class="phase-badge phase-revenue">Revenue NOW</span></td>
-<td>
+</div>
+
+<!-- Months 2-3 -->
+<div style="margin-bottom: 1.5rem;">
+<h3 style="font-size: 1.1rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;">
+<span class="phase-badge phase-foundation">Months 2-3</span>
+Foundation Sprint + Early Revenue (Parallel)
+</h3>
+<div style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB; margin-bottom: 1rem;">
+<h4 style="font-size: 0.95rem; font-weight: 600; color: #7C3AED; margin-bottom: 0.75rem;">Website & Concierge (Month 2)</h4>
 <ul class="deliverables-list">
 <li><strong>Website Launch:</strong> Marketing site with service catalog, pricing, zones</li>
 <li><strong>AI Concierge Chat:</strong> Basic AI chatbot for service discovery and booking inquiries</li>
 <li><strong>Manual Booking System:</strong> Admin dashboard for concierge team to manage bookings manually</li>
 <li><strong>Payment Processing:</strong> PromptPay/Bank transfer for initial bookings</li>
 <li><strong>Provider Network:</strong> Onboard initial providers manually (phone/WhatsApp coordination)</li>
-<li><strong>Customer App Sprint 1:</strong> Onboarding, authentication, home screen with AI entry point</li>
-<li><strong>START GENERATING REVENUE</strong> while building the full platform</li>
+<li style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #E9D5FF;"><em>Revenue operations commence with manual concierge model</em></li>
 </ul>
-</td>
-</tr>
-<tr>
-<td><strong>Month 3</strong></td>
-<td><span class="phase-badge phase-foundation">Foundation</span></td>
-<td>
+</div>
+<div style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB;">
+<h4 style="font-size: 0.95rem; font-weight: 600; color: #1D4ED8; margin-bottom: 0.75rem;">Core App Development (Months 2-3)</h4>
 <ul class="deliverables-list">
+<li><strong>Customer App Sprint 1:</strong> Onboarding, authentication, home screen with AI entry point</li>
 <li><strong>AI Service Discovery:</strong> Natural language requests, recommendations, clarifications</li>
 <li><strong>Booking Flow:</strong> Scheduling, address, booking for others, service details</li>
 <li><strong>Payment Integration:</strong> PromptPay, QR code, card payments (Omise/Stripe)</li>
 <li><strong>Provider App v1:</strong> Onboarding, profile, availability, booking notifications</li>
 <li><strong>Messaging Setup:</strong> WhatsApp/LINE integration for updates</li>
 </ul>
-</td>
-</tr>
-<tr>
-<td><strong>Month 4</strong></td>
-<td><span class="phase-badge phase-core">Core Platform</span></td>
-<td>
-<ul class="deliverables-list">
+</div>
+<div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
+<div class="release-badge">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+</svg>
+Website v1.0
+</div>
+<div class="release-badge">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+</svg>
+Customer App v1.0
+</div>
+<div class="release-badge">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+</svg>
+Provider App v1.0
+</div>
+</div>
+</div>
+
+<!-- Months 4-5-6 -->
+<div style="margin-bottom: 1.5rem;">
+<h3 style="font-size: 1.1rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;">
+<span class="phase-badge phase-core">Months 4-5-6</span>
+Core Platform Development
+</h3>
+<ul class="deliverables-list" style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB;">
 <li><strong>Provider Matching:</strong> Auto assignment algorithm, preferred provider selection</li>
 <li><strong>Provider App v2:</strong> Booking acceptance, navigation, service execution, completion</li>
 <li><strong>Real Time Tracking:</strong> Status updates, provider location, customer communication</li>
 <li><strong>Checkout & Payments:</strong> Full payment flow, wallet, receipts</li>
 <li><strong>Admin Operations:</strong> Manual intervention, booking reassignment, support tools</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><strong>Month 5</strong></td>
-<td><span class="phase-badge phase-core">Core Platform</span></td>
-<td>
-<ul class="deliverables-list">
 <li><strong>SLA & Disruptions:</strong> Provider disruption handling (LOW/MEDIUM/HIGH), recovery flows</li>
 <li><strong>Ratings & Reviews:</strong> Customer ratings, provider feedback, tipping</li>
 <li><strong>Provider Earnings:</strong> Earnings dashboard, payout requests, performance metrics</li>
 <li><strong>Cancellation Policy:</strong> Time based rules, refunds, credits</li>
 <li><strong>Admin Financial:</strong> Payment monitoring, refunds, payout management</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><strong>Month 6</strong></td>
-<td><span class="phase-badge phase-polish">Launch Ready</span></td>
-<td>
-<ul class="deliverables-list">
 <li><strong>Loyalty Program:</strong> Points accumulation, tiers, rewards redemption</li>
 <li><strong>Corporate Provider:</strong> Basic corporate onboarding, staff management (web based)</li>
-<li><strong>Testing & QA:</strong> End to end testing, performance optimization, bug fixes</li>
-<li><strong>Soft Launch:</strong> Beta with limited users, feedback collection</li>
-<li><strong>Training & Documentation:</strong> Support team, provider materials, user guides</li>
+<li style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #A7F3D0;"><em>Complete feature set development with end-to-end automation</em></li>
 </ul>
-</td>
-</tr>
-<tr>
-<td><strong>Month 7+</strong></td>
-<td><span class="phase-badge phase-enhancements">Enhancements</span></td>
-<td>
-<ul class="deliverables-list">
+<div class="release-badge">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+<path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+</svg>
+Provider Platform v2.0
+</div>
+</div>
+
+<!-- Months 7-8 -->
+<div style="margin-bottom: 1.5rem;">
+<h3 style="font-size: 1.1rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;">
+<span class="phase-badge phase-polish">Months 7-8</span>
+QA, Testing & Launch Readiness
+</h3>
+<ul class="deliverables-list" style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB;">
+<li><strong>Comprehensive QA:</strong> End to end testing across all user journeys and edge cases</li>
+<li><strong>Performance Testing:</strong> Load testing, stress testing, optimization</li>
+<li><strong>Security Audit:</strong> Penetration testing, data protection compliance</li>
+<li><strong>Bug Fixes:</strong> Critical and high priority issue resolution</li>
+<li><strong>Soft Launch:</strong> Beta with limited users in select zones, feedback collection</li>
+<li><strong>Training & Documentation:</strong> Support team enablement, provider materials, user guides</li>
+<li><strong>Operations Setup:</strong> Support workflows, escalation procedures, monitoring dashboards</li>
+<li><strong>Final Polish:</strong> UI/UX refinements based on beta feedback</li>
+<li style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #E9D5FF;"><em>Platform validated and ready for full market launch</em></li>
+</ul>
+<div class="release-badge">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+</svg>
+Full Platform Launch v1.0
+</div>
+</div>
+
+<!-- Month 9+ -->
+<div style="margin-bottom: 1.5rem;">
+<h3 style="font-size: 1.1rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;">
+<span class="phase-badge phase-enhancements">Month 9+</span>
+Post Launch Enhancements
+</h3>
+<ul class="deliverables-list" style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB;">
 <li><strong>Advanced AI:</strong> Better intent mapping, conversation memory, multi turn dialogues</li>
 <li><strong>ML Scoring:</strong> Provider Performance Score (PPS), Customer Reliability Score (CRS)</li>
 <li><strong>Advanced Analytics:</strong> Platform insights, supply/demand forecasting, risk detection</li>
 <li><strong>Corporate Portal v2:</strong> Advanced reporting, booking distribution, compliance</li>
 <li><strong>Performance Optimizations:</strong> Caching, database tuning, mobile optimization</li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
 </div>
+
 </div>
 
 <!-- Tab Navigation -->
