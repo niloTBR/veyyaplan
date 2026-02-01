@@ -486,8 +486,8 @@
 
 <!-- Implementation Timeline -->
 <div class="timeline-container">
-<h2>8 Month AI First Launch Timeline</h2>
-<p class="timeline-subtitle">Each month combines strategy, design, UX, and development work in coordinated sprints. Design and technical teams work in parallel: while designers refine upcoming features, developers build what was designed the previous sprint. This agile approach ensures continuous progress with quality at each stage, from initial branding through comprehensive QA and launch readiness.</p>
+<h2>9 Month AI First Launch Timeline</h2>
+<p class="timeline-subtitle">Each month combines strategy, design, UX, and development work in coordinated sprints. Design and technical teams work in parallel: while designers refine upcoming features, developers build what was designed the previous sprint. This agile approach ensures continuous progress with quality at each stage, from initial branding through comprehensive QA and launch readiness. The timeline includes a built-in buffer month for thorough testing and refinement before launch.</p>
 
 <!-- Month 1 -->
 <div style="margin-bottom: 1.5rem;">
@@ -517,8 +517,8 @@ Foundation Sprint + Early Revenue (Parallel)
 <li><strong>Website Launch:</strong> Marketing site with service catalog, pricing, zones</li>
 <li><strong>AI Concierge Chat:</strong> Basic AI chatbot for service discovery and booking inquiries</li>
 <li><strong>Manual Booking System:</strong> Admin dashboard for concierge team to manage bookings manually</li>
-<li><strong>Payment Processing:</strong> PromptPay/Bank transfer for initial bookings</li>
-<li><strong>Provider Network:</strong> Onboard initial providers manually (phone/WhatsApp coordination)</li>
+<li><strong>Payment Processing:</strong> PromptPay only for initial bookings</li>
+<li><strong>Provider Network:</strong> Onboard initial providers manually (phone & website forms)</li>
 <li style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #E9D5FF;"><em>Revenue operations commence with manual concierge model</em></li>
 </ul>
 </div>
@@ -528,9 +528,9 @@ Foundation Sprint + Early Revenue (Parallel)
 <li><strong>Customer App Sprint 1:</strong> Onboarding, authentication, home screen with AI entry point</li>
 <li><strong>AI Service Discovery:</strong> Natural language requests, recommendations, clarifications</li>
 <li><strong>Booking Flow:</strong> Scheduling, address, booking for others, service details</li>
-<li><strong>Payment Integration:</strong> PromptPay, QR code, card payments (Omise/Stripe)</li>
+<li><strong>Payment Integration:</strong> PromptPay, QR code payments (Omise); extensible architecture for future gateways</li>
 <li><strong>Provider App v1:</strong> Onboarding, profile, availability, booking notifications</li>
-<li><strong>Messaging Setup:</strong> WhatsApp/LINE integration for updates</li>
+<li><strong>Messaging Setup:</strong> LINE integration for updates</li>
 </ul>
 </div>
 <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem;">
@@ -571,7 +571,7 @@ Core Platform Development
 <li><strong>Ratings & Reviews:</strong> Customer ratings, provider feedback, tipping</li>
 <li><strong>Provider Earnings:</strong> Earnings dashboard, payout requests, performance metrics</li>
 <li><strong>Cancellation Policy:</strong> Time based rules, refunds, credits</li>
-<li><strong>Admin Financial:</strong> Payment monitoring, refunds, payout management</li>
+<li><strong>Admin Financial:</strong> Payment monitoring, refunds, automated payout management</li>
 <li><strong>Loyalty Program:</strong> Points accumulation, tiers, rewards redemption</li>
 <li><strong>Corporate Provider:</strong> Basic corporate onboarding, staff management (web based)</li>
 <li style="margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px solid #A7F3D0;"><em>Complete feature set development with end-to-end automation</em></li>
@@ -585,11 +585,11 @@ Provider Platform v2.0
 </div>
 </div>
 
-<!-- Months 7-8 -->
+<!-- Months 7-8-9 -->
 <div style="margin-bottom: 1.5rem;">
 <h3 style="font-size: 1.1rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;">
-<span class="phase-badge phase-polish">Months 7-8</span>
-QA, Testing & Launch Readiness
+<span class="phase-badge phase-polish">Months 7-8-9</span>
+QA, Testing & Launch Readiness <span style="font-size: 0.85rem; color: #6B7280; font-weight: 400; margin-left: 0.5rem;">(includes buffer month)</span>
 </h3>
 <ul class="deliverables-list" style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB;">
 <li><strong>Comprehensive QA:</strong> End to end testing across all user journeys and edge cases</li>
@@ -610,10 +610,10 @@ Full Platform Launch v1.0
 </div>
 </div>
 
-<!-- Month 9+ -->
+<!-- Month 10+ -->
 <div style="margin-bottom: 1.5rem;">
 <h3 style="font-size: 1.1rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem;">
-<span class="phase-badge phase-enhancements">Month 9+</span>
+<span class="phase-badge phase-enhancements">Month 10+</span>
 Post Launch Enhancements
 </h3>
 <ul class="deliverables-list" style="background: white; padding: 1rem 1.5rem; border-radius: 0.75rem; border: 1.5px solid #E5E7EB;">
@@ -1972,7 +1972,7 @@ Post Launch Enhancements
 <div class="mb-4">
 <button onclick="toggleMainAccordion(this)" class="main-flow-button">
 <span class="main-flow-badge">6</span>
-<span class="main-flow-title">AI System Governance & Monitoring</span>
+<span class="main-flow-title">Platform Analytics & Insights</span>
 <svg class="w-5 h-5 transform transition-transform flex-shrink-0 ml-auto text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
 </button>
@@ -1981,35 +1981,42 @@ Post Launch Enhancements
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">6a</div>
-<h3>Configure AI prompts and response templates</h3>
+<h3>View comprehensive platform performance dashboard</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">6b</div>
-<h3>Monitor AI outputs and identify failures</h3>
+<h3>Analyze supply and demand patterns by region</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">6c</div>
-<h3>Adjust intent classification and mapping logic</h3>
+<h3>Track SLA compliance and quality metrics</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">6d</div>
-<h3>Define AI boundaries and non overridable rules</h3>
+<h3>Monitor customer and provider scoring trends</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">6e</div>
-<h3>Review AI performance metrics and accuracy</h3>
+<h3>Track AI usage metrics and measure ROI from AI interactions</h3>
+</div>
+</div>
+
+<div class="story-row">
+<div class="story-card">
+<div class="story-num">6f</div>
+<h3>Generate custom reports and data exports</h3>
 </div>
 </div>
 
@@ -2020,7 +2027,7 @@ Post Launch Enhancements
 <div class="mb-4">
 <button onclick="toggleMainAccordion(this)" class="main-flow-button">
 <span class="main-flow-badge">7</span>
-<span class="main-flow-title">Platform Analytics & Insights</span>
+<span class="main-flow-title">Communications Management</span>
 <svg class="w-5 h-5 transform transition-transform flex-shrink-0 ml-auto text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
 </button>
@@ -2029,35 +2036,35 @@ Post Launch Enhancements
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">7a</div>
-<h3>View comprehensive platform performance dashboard</h3>
+<h3>Configure transactional notification templates</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">7b</div>
-<h3>Analyze supply and demand patterns by region</h3>
+<h3>Set alert throttling and frequency controls</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">7c</div>
-<h3>Track SLA compliance and quality metrics</h3>
+<h3>Enforce brand tone and messaging guidelines</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">7d</div>
-<h3>Monitor customer and provider scoring trends</h3>
+<h3>Monitor message delivery rates and failures</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">7e</div>
-<h3>Generate custom reports and data exports</h3>
+<h3>Manage multi channel communication preferences</h3>
 </div>
 </div>
 
@@ -2068,7 +2075,7 @@ Post Launch Enhancements
 <div class="mb-4">
 <button onclick="toggleMainAccordion(this)" class="main-flow-button">
 <span class="main-flow-badge">8</span>
-<span class="main-flow-title">Communications Management</span>
+<span class="main-flow-title">Risk Detection & Quality Assurance</span>
 <svg class="w-5 h-5 transform transition-transform flex-shrink-0 ml-auto text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
 </button>
@@ -2077,35 +2084,35 @@ Post Launch Enhancements
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">8a</div>
-<h3>Configure transactional notification templates</h3>
+<h3>Monitor provider performance scoring algorithms</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">8b</div>
-<h3>Set alert throttling and frequency controls</h3>
+<h3>Track customer reliability scoring metrics</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">8c</div>
-<h3>Enforce brand tone and messaging guidelines</h3>
+<h3>Review outcome learning and ranking improvements</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">8d</div>
-<h3>Monitor message delivery rates and failures</h3>
+<h3>Surface risk flags and anomalies for investigation</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
 <div class="story-num">8e</div>
-<h3>Manage multi channel communication preferences</h3>
+<h3>Configure fraud detection thresholds and rules</h3>
 </div>
 </div>
 
@@ -2116,54 +2123,6 @@ Post Launch Enhancements
 <div class="mb-4">
 <button onclick="toggleMainAccordion(this)" class="main-flow-button">
 <span class="main-flow-badge">9</span>
-<span class="main-flow-title">Risk Detection & Quality Assurance</span>
-<svg class="w-5 h-5 transform transition-transform flex-shrink-0 ml-auto text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-</button>
-<div class="accordion-content">
-
-<div class="story-row">
-<div class="story-card">
-<div class="story-num">9a</div>
-<h3>Monitor provider performance scoring algorithms</h3>
-</div>
-</div>
-
-<div class="story-row">
-<div class="story-card">
-<div class="story-num">9b</div>
-<h3>Track customer reliability scoring metrics</h3>
-</div>
-</div>
-
-<div class="story-row">
-<div class="story-card">
-<div class="story-num">9c</div>
-<h3>Review outcome learning and ranking improvements</h3>
-</div>
-</div>
-
-<div class="story-row">
-<div class="story-card">
-<div class="story-num">9d</div>
-<h3>Surface risk flags and anomalies for investigation</h3>
-</div>
-</div>
-
-<div class="story-row">
-<div class="story-card">
-<div class="story-num">9e</div>
-<h3>Configure fraud detection thresholds and rules</h3>
-</div>
-</div>
-
-</div>
-</div>
-
-<!-- FLOW 10 -->
-<div class="mb-4">
-<button onclick="toggleMainAccordion(this)" class="main-flow-button">
-<span class="main-flow-badge">10</span>
 <span class="main-flow-title">Content & Marketing Management</span>
 <svg class="w-5 h-5 transform transition-transform flex-shrink-0 ml-auto text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
@@ -2172,35 +2131,35 @@ Post Launch Enhancements
 
 <div class="story-row">
 <div class="story-card">
-<div class="story-num">10a</div>
+<div class="story-num">9a</div>
 <h3>Manage promotional campaigns and offers</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
-<div class="story-num">10b</div>
+<div class="story-num">9b</div>
 <h3>Configure loyalty program tiers and rewards</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
-<div class="story-num">10c</div>
+<div class="story-num">9c</div>
 <h3>Update platform content and messaging</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
-<div class="story-num">10d</div>
+<div class="story-num">9d</div>
 <h3>Manage FAQ and help center documentation</h3>
 </div>
 </div>
 
 <div class="story-row">
 <div class="story-card">
-<div class="story-num">10e</div>
+<div class="story-num">9e</div>
 <h3>Track campaign performance and engagement metrics</h3>
 </div>
 </div>
