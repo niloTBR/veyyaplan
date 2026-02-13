@@ -1,0 +1,175 @@
+WBS,Phase,Week,Workstream,Task Name,Description,Owner,Deliverables,Status
+,,,,,,,,,
+,COMPLETED DISCOVERY (Not in Scope - Already Done),,,,,,,,
+,Done,-,-,Brand Strategy & Positioning,Luxury positioning established - "time is a luxury",Strategy,Brand strategy doc,COMPLETE
+,Done,-,-,User Personas,Expats / Executives / Solo women / HNWIs / WFH employees,Strategy,Persona documentation,COMPLETE
+,Done,-,-,Provider Personas,Independent providers / SMEs / Corporate providers,Strategy,Provider personas,COMPLETE
+,Done,-,-,Competitive Analysis,Urban Company / Justlife / Regional players analyzed,Strategy,Competitive analysis,COMPLETE
+,Done,-,-,Market Research,TAM/SAM/SOM / Thailand market specifics,Strategy,Market research doc,COMPLETE
+,Done,-,-,Go-to-Market Plan,Bangkok 90-day pilot with KPIs defined,Strategy,GTM plan,COMPLETE
+,Done,-,-,Monetization Strategy,15+ revenue streams identified,Strategy,Revenue model,COMPLETE
+,Done,-,-,Service Taxonomy,Full category hierarchy (Beauty / Home / Wellness / Pets etc.),Strategy,App Taxonomy.xlsx,COMPLETE
+,Done,-,-,Information Architecture,All 40 flows defined across 4 applications,UX,index.html,COMPLETE
+,Done,-,-,Visual Direction,Mood boards / warm luxury tones / photography direction,Brand,Branding PPT WIP,IN PROGRESS
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTH 1: DETAILED WEEK-BY-WEEK PLAN,,,,,,,,
+,,,,,,,,,
+,WEEK 1,1,Brand Refinement,Logo & Identity Review,Review existing WIP and define refinement direction,Brand Designer,Refinement brief,Planned
+,WEEK 1,1,Brand Refinement,Color Palette Finalization,Lock final primary / secondary / accent colors from warm luxury direction,Brand Designer,Final color tokens,Planned
+,WEEK 1,1,Brand Refinement,Typography Selection,Select and license 2-3 typefaces aligned to luxury brand,Brand Designer,Type scale document,Planned
+,WEEK 1,1,Design System,Figma Project Setup,Create Figma file structure / pages / design tokens foundation,UI Designer,Figma file initialized,Planned
+,WEEK 1,1,Design System,Design Tokens Definition,Define spacing / radius / shadows / elevation system,UI Designer,Token library,Planned
+,WEEK 1,1,Website,Website Strategy & Sitemap,Define website goals / pages / user flows for Month 2 launch,UX Designer,Website sitemap,Planned
+,,,,,,,,,
+,WEEK 2,2,Brand Refinement,Logo Refinement & Variations,Refine logo / create wordmark / icon / lockups,Brand Designer,Logo suite draft,Planned
+,WEEK 2,2,Brand Refinement,Photography & Imagery Guidelines,Define photo style / treatment / mood / sourcing guidelines,Brand Designer,Imagery guidelines,Planned
+,WEEK 2,2,Design System,Core Components - Navigation,Bottom nav / top nav / tab bars / breadcrumbs,UI Designer,Navigation components,Planned
+,WEEK 2,2,Design System,Core Components - Buttons,All button types / states / sizes / loading states,UI Designer,Button components,Planned
+,WEEK 2,2,Design System,Core Components - Form Inputs,Text fields / dropdowns / checkboxes / radio / toggles,UI Designer,Input components,Planned
+,WEEK 2,2,Website,Website Wireframes,Low-fidelity wireframes for all website pages,UX Designer,Website wireframes,Planned
+,,,,,,,,,
+,WEEK 3,3,Brand Refinement,Logo Finalization & Sign-off,Final logo approval and asset export,Brand Designer,Final logo suite,Planned
+,WEEK 3,3,Design System,Core Components - Cards,Service cards / provider cards / booking cards / info cards,UI Designer,Card components,Planned
+,WEEK 3,3,Design System,Core Components - Lists,List items / expandable rows / grouped lists,UI Designer,List components,Planned
+,WEEK 3,3,Design System,Core Components - Feedback,Toasts / alerts / modals / bottom sheets / loading / empty states,UI Designer,Feedback components,Planned
+,WEEK 3,3,Sprint 1 Design,CA Flow 1: Onboarding - Wireframes,Splash / value props / auth selection / phone OTP / social auth,UX Designer,Flow 1 wireframes,Planned
+,WEEK 3,3,Sprint 1 Design,CA Flow 2: Home Screen - Wireframes,AI entry point / category grid / quick rebook / suggestions,UX Designer,Flow 2 wireframes,Planned
+,WEEK 3,3,Sprint 1 Design,PA Flow 1: Provider Onboarding - Wireframes,Registration / verification / credentials / services / payout setup,UX Designer,PA Flow 1 wireframes,Planned
+,WEEK 3,3,Website,Website UI Design - Desktop,High-fidelity desktop designs for marketing website,UI Designer,Desktop UI designs,Planned
+,,,,,,,,,
+,WEEK 4,4,Sprint 1 Design,CA Flow 1: Onboarding - UI Design,Apply design system / high-fidelity screens,UI Designer,Flow 1 UI complete,Planned
+,WEEK 4,4,Sprint 1 Design,CA Flow 2: Home Screen - UI Design,Apply design system / high-fidelity screens,UI Designer,Flow 2 UI complete,Planned
+,WEEK 4,4,Sprint 1 Design,PA Flow 1: Provider Onboarding - UI Design,Apply design system / high-fidelity screens,UI Designer,PA Flow 1 UI complete,Planned
+,WEEK 4,4,Website,Website UI Design - Mobile,Responsive mobile designs for marketing website,UI Designer,Mobile UI designs,Planned
+,WEEK 4,4,Website,AI Concierge Chat Widget,Chat interface design for website AI assistant,UI Designer,Chat widget UI,Planned
+,WEEK 4,4,Sprint 1 Design,Sprint 1 Internal Review,Design review / feedback / refinements,Design Lead,Review notes,Planned
+,WEEK 4,4,Sprint 1 Design,Sprint 2 Wireframe Kickoff,Begin wireframes for Flows 3-6 (ahead of dev),UX Designer,Sprint 2 wireframes started,Planned
+,,,,,,,,,
+,MONTH 1 DELIVERABLES SUMMARY,,,,,,,,,
+,-,-,-,Brand,Final logo suite / color system / typography / imagery guidelines,Brand Designer,Brand assets package,
+,-,-,-,Design System,20+ core components in Figma with documentation,UI Designer,Design system v0.5,
+,-,-,-,Customer App,Flow 1 (Onboarding) + Flow 2 (Home) - Wireframes & UI,UX + UI,CA Flows 1-2 complete,
+,-,-,-,Provider App,Flow 1 (Onboarding) - Wireframes & UI,UX + UI,PA Flow 1 complete,
+,-,-,-,Website,Full marketing website designs (desktop + mobile + chat),UX + UI,Website ready for dev,
+,-,-,-,Ahead Work,Sprint 2 wireframes started (Flows 3-6),UX,Wireframes in progress,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTH 2: SPRINT 2 DESIGN + SPRINT 1 HANDOFF,,,,,,,,
+,,,,,,,,,
+,Month 2,-,-,Handoff,Sprint 1 Design Specs & Dev Handoff,Prepare specs / assets / documentation for CA Flows 1-2 and PA Flow 1,UI Designer,Dev-ready package,Planned
+,Month 2,-,-,Handoff,Website Dev Handoff,Website assets and specs for development team,UI Designer,Website dev package,Planned
+,Month 2,-,-,Customer App,Flows 3-6 Wireframes & UI,Category Discovery / AI Discovery / Service Details / Scheduling,UX + UI,4 flows complete,Planned
+,Month 2,-,-,Provider App,Flows 2-3 Wireframes & UI,Profile & Availability / Booking Requests,UX + UI,2 flows complete,Planned
+,Month 2,-,-,Design System,Component Library Expansion,Calendar pickers / search / filters / maps / time selectors,UI Designer,Extended components,Planned
+,,,,,,,,,
+,MONTH 2 OUTCOMES: Website launches / Dev builds Sprint 1 / Design completes Sprint 2,,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTH 3: SPRINT 3 DESIGN + PROTOTYPES,,,,,,,,
+,,,,,,,,,
+,Month 3,-,-,Handoff,Sprint 2 Design Specs & Dev Handoff,Specs for CA Flows 3-6 and PA Flows 2-3,UI Designer,Dev-ready package,Planned
+,Month 3,-,-,Customer App,Flows 7-9 Wireframes & UI,Provider Matching / Address Confirmation / Checkout & Payment,UX + UI,3 flows complete,Planned
+,Month 3,-,-,Provider App,Flows 4-5 Wireframes & UI,Navigation & Comms / Service Execution,UX + UI,2 flows complete,Planned
+,Month 3,-,-,Prototypes,Customer App Prototype v1,Interactive prototype for Flows 1-9 (user testing ready),UI Designer,CA Prototype,Planned
+,Month 3,-,-,Prototypes,Provider App Prototype v1,Interactive prototype for PA Flows 1-5 (provider testing ready),UI Designer,PA Prototype,Planned
+,,,,,,,,,
+,MONTH 3 OUTCOMES: First testable prototypes / Core booking flow complete / User testing begins,,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTH 4: CUSTOMER APP COMPLETION + ADMIN START,,,,,,,,
+,,,,,,,,,
+,Month 4,-,-,Handoff,Sprint 3 Design Specs & Dev Handoff,Specs for CA Flows 7-9 and PA Flows 4-5,UI Designer,Dev-ready package,Planned
+,Month 4,-,-,Customer App,Flows 10-13 Wireframes & UI,Booking Tracking / SLA Events / Cancellation / In-Service Support,UX + UI,4 flows complete,Planned
+,Month 4,-,-,Provider App,Flows 6-7 Wireframes & UI,Earnings & Payouts / Performance & Ratings,UX + UI,2 flows complete,Planned
+,Month 4,-,-,Admin Dashboard,Flows 1-3 Wireframes & UI,Platform Governance / User Management / Booking Operations,UX + UI,3 admin flows,Planned
+,Month 4,-,-,Corporate Portal,Flow 1 Wireframes & UI,Corporate Account Setup & Onboarding,UX + UI,1 corp flow,Planned
+,,,,,,,,,
+,MONTH 4 OUTCOMES: Customer App nearly complete / Admin Dashboard started / Multi-app parallel work,,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTH 5: COMPLETE ALL APP FLOWS,,,,,,,,
+,,,,,,,,,
+,Month 5,-,-,Customer App,Flows 14-15 Wireframes & UI,Service Completion & Post-Experience / Loyalty & Rewards,UX + UI,CA 100% complete,Planned
+,Month 5,-,-,Provider App,Flows 8-9 Wireframes & UI,Support & Issue Resolution / Portfolio & Content,UX + UI,PA 100% complete,Planned
+,Month 5,-,-,Admin Dashboard,Flows 4-6 Wireframes & UI,Dispute Resolution / Financial Management / Analytics,UX + UI,6 admin flows done,Planned
+,Month 5,-,-,Corporate Portal,Flows 2-4 Wireframes & UI,Staff Management / Service Catalog / Booking Management,UX + UI,4 corp flows done,Planned
+,,,,,,,,,
+,MONTH 5 OUTCOMES: Customer App complete (15 flows) / Provider App complete (9 flows),,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTH 6: COMPLETE ADMIN + CORPORATE + FULL PROTOTYPES,,,,,,,,
+,,,,,,,,,
+,Month 6,-,-,Admin Dashboard,Flows 7-9 Wireframes & UI,Communications / Risk Detection / Content & Marketing,UX + UI,Admin 100% complete,Planned
+,Month 6,-,-,Corporate Portal,Flows 5-7 Wireframes & UI,Performance Analytics / Financial / Compliance,UX + UI,Corp 100% complete,Planned
+,Month 6,-,-,Prototypes,Full Prototypes All 4 Applications,Complete interactive prototypes for all apps,UI Designer,4 full prototypes,Planned
+,Month 6,-,-,Design System,Design System v1.0 Complete,All components documented and organized,UI Designer,Design System v1.0,Planned
+,Month 6,-,-,Handoff,Complete Design Handoff Package,Full specs / assets / tokens for all applications,Design Lead,Master handoff,Planned
+,,,,,,,,,
+,MONTH 6 OUTCOMES: All 40 flows complete / All 4 prototypes ready / Design System v1.0,,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTHS 7-8: QA + REFINEMENT + V2 POLISH,,,,,,,,
+,,,,,,,,,
+,Months 7-8,-,-,Design QA,Design-Dev Alignment Reviews,Weekly reviews ensuring implementation matches design,Design Lead,Alignment reports,Planned
+,Months 7-8,-,-,Design QA,Accessibility Audit & Fixes,WCAG compliance review and remediation,UX Designer,Accessibility compliance,Planned
+,Months 7-8,-,-,Refinement,Soft Launch Feedback Integration,Update designs based on beta user feedback,UX + UI,Refined designs,Planned
+,Months 7-8,-,-,Polish,Motion & Micro-interactions,Animations / transitions / loading states polish,Motion Designer,Motion specs,Planned
+,Months 7-8,-,-,Polish,App v2.0 Refinements,Polish all apps based on real-world feedback,UI Designer,v2.0 designs,Planned
+,,,,,,,,,
+,MONTHS 7-8 OUTCOMES: Production-ready designs / Accessibility compliant / User-validated refinements,,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTH 9: LAUNCH PREPARATION,,,,,,,,
+,,,,,,,,,
+,Month 9,-,-,Training Materials,Provider Onboarding & Training Guides,Visual guides / tutorials / training materials for providers,Graphic Designer,Training collateral,Planned
+,Month 9,-,-,Training Materials,Support Team Documentation,Visual guides for support workflows and escalations,Graphic Designer,Support materials,Planned
+,Month 9,-,-,Launch Assets,App Store Assets,Screenshots / feature graphics / promo materials,Graphic Designer,App store kit,Planned
+,Month 9,-,-,Launch Assets,Marketing Launch Kit,Social ads / banners / email templates / PR assets,Graphic Designer,Marketing kit,Planned
+,Month 9,-,-,Documentation,Brand Guidelines Final,Complete brand book for external partners,Brand Designer,Brand guidelines PDF,Planned
+,Month 9,-,-,Documentation,Design System Documentation,Complete component documentation for ongoing use,UI Designer,Design system docs,Planned
+,Month 9,-,-,Sign-off,Final Design Sign-off,Stakeholder approval for launch,Design Lead,Sign-off document,Planned
+,,,,,,,,,
+,MONTH 9 OUTCOMES: Launch-ready assets / Training complete / Brand guidelines finalized,,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,MONTHS 10-11: POST-LAUNCH ENHANCEMENTS,,,,,,,,
+,,,,,,,,,
+,Months 10-11,-,-,Advanced Features,Advanced AI Conversation UI,Multi-turn dialogue / conversation memory / context visualization,UX + UI,Advanced AI designs,Planned
+,Months 10-11,-,-,Advanced Features,ML Scoring Dashboards,Provider Performance Score (PPS) / Customer Reliability Score (CRS),UI Designer,ML dashboard designs,Planned
+,Months 10-11,-,-,Advanced Features,Advanced Analytics,Supply/demand forecasting / risk detection dashboards,UI Designer,Analytics designs,Planned
+,Months 10-11,-,-,Continuous,Design System Maintenance,Ongoing component updates and additions,UI Designer,Updated design system,Planned
+,Months 10-11,-,-,Continuous,User Research Integration,Ongoing design improvements from user research,UX Designer,Design iterations,Planned
+,,,,,,,,,
+,MONTHS 10-11 OUTCOMES: Advanced features designed / Continuous improvement cycle established,,,,,,,,
+,,,,,,,,,
+========,========,========,========,========,========,========,========,========
+,,,,,,,,,
+,PROJECT SUMMARY,,,,,,,,
+,,,,,,,,,
+,SCOPE,Applications,4 total,Customer App (15 flows) / Provider App (9 flows) / Admin Dashboard (9 flows) / Corporate Portal (7 flows),,,,,
+,SCOPE,Total Flows,40 flows,All defined in Information Architecture (index.html),,,,,
+,SCOPE,Design System,100+ components,Full component library with documentation,,,,,
+,SCOPE,Prototypes,4 interactive,One per application,,,,,
+,,,,,,,,,
+,TIMELINE,Month 1,Brand + Design System + Sprint 1,Detailed week-by-week execution,,,,,
+,TIMELINE,Months 2-6,Core Design Production,All 40 flows wireframes and UI,,,,,
+,TIMELINE,Months 7-8,QA + Polish,Refinement based on implementation and feedback,,,,,
+,TIMELINE,Month 9,Launch Prep,Assets / documentation / sign-off,,,,,
+,TIMELINE,Months 10-11,Post-Launch,Advanced features and continuous improvement,,,,,
+,,,,,,,,,
+,TEAM,Brand Designer,Brand refinement / guidelines / visual identity,,,,,,
+,TEAM,UX Designer,Wireframes / user flows / IA refinement / accessibility,,,,,,
+,TEAM,UI Designer,UI design / design system / prototypes / handoff,,,,,,
+,TEAM,Motion Designer,Animations / micro-interactions / transitions,,,,,,
+,TEAM,Graphic Designer,Marketing assets / training materials / app store,,,,,,
+,TEAM,Design Lead,QA / reviews / stakeholder management / sign-off,,,,,,
